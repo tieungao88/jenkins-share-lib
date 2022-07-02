@@ -1,4 +1,4 @@
 #!/usr/bin/env groovy
-def call() {
-    echo 'deploying the application...'
+def call(String message) {
+    echo "deploying the application...$message"
 }
